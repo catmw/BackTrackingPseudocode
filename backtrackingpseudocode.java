@@ -28,7 +28,7 @@ function routePacket(fabric, start, goal):
 
 
 
-        //move in the fabric
+        //move in the fabric using recursion
 
         //up 
         if backtrack(row - 1,col):   
