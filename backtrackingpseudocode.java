@@ -28,20 +28,20 @@ function backtrack(row, col):
 
 
 
-//move in the fabric
+    //move in the fabric
 
-//up 
-if backtrack(row - 1,col):   
-    return true 
-//down
-if backtrack(row + 1,col):
-    return true
+    //up 
+    if backtrack(row - 1,col):   
+        return true 
+    //down
+    if backtrack(row + 1,col):
+        return true
 
-//right
-if backtrack(row, col+1):
-    return true
-//left
-if backtrack(row, col- 1):
-    return true
+    //right
+    if backtrack(row, col+1):
+        return true
+    //left
+    if backtrack(row, col- 1):
+        return true
        
  */
